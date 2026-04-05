@@ -1,0 +1,20 @@
+.theme-toggle {
+  background: var(--card-background);
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  border-color: var(--primary-color);
+}
+
+.theme-toggle:active {
+  transform: translateY(0);
+}

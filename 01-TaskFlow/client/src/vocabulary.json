@@ -1,0 +1,138 @@
+{
+  "hebrew": {
+    "app": {
+      "title": "TaskFlow"
+    },
+    "tasksList": {
+      "title": "📋 רשימת משימות",
+      "total": "סך הכל",
+      "completed": "הושלמו",
+      "pending": "ממתינות",
+      "overdue": "באיחור",
+      "searchPlaceholder": "🔍 חפש משימות...",
+      "filterAll": "הכל",
+      "filterPending": "ממתינות",
+      "filterCompleted": "הושלמו",
+      "filterOverdue": "באיחור",
+      "noTasks": "אין משימות זמינות.",
+      "noResults": "לא נמצאו משימות התואמות את החיפוש או הסינון.",
+      "clearFilters": "נקה סינונים",
+      "loading": "טוען משימות...",
+      "error": "שגיאה",
+      "tryAgain": "נסה שוב",
+      "deleteConfirm": "האם אתה בטוח שברצונך למחוק משימה זו?"
+    },
+    "taskTable": {
+      "task": "משימה",
+      "description": "תיאור",
+      "priority": "עדיפות",
+      "category": "קטגוריה",
+      "dueDate": "תאריך יעד",
+      "status": "סטטוס",
+      "actions": "פעולות",
+      "editTooltip": "ערוך משימה",
+      "deleteTooltip": "מחק משימה",
+      "toggleTooltip": "סמן כהושלם/לא הושלם"
+    },
+    "taskForm": {
+      "addTitle": "➕ הוסף משימה חדשה",
+      "editTitle": "✏️ ערוך משימה",
+      "taskAdded": "✓ המשימה נוספה בהצלחה!",
+      "taskUpdated": "✓ המשימה עודכנה בהצלחה!",
+      "titleLabel": "כותרת",
+      "titlePlaceholder": "הזן כותרת משימה",
+      "descriptionLabel": "תיאור",
+      "descriptionPlaceholder": "הזן תיאור משימה",
+      "priorityLabel": "עדיפות",
+      "categoryLabel": "קטגוריה",
+      "categoryPlaceholder": "לדוגמה: עבודה, אישי",
+      "dueDateLabel": "תאריך יעד",
+      "completedLabel": "סמן כהושלם",
+      "required": "*",
+      "submitAdd": "הוסף משימה",
+      "submitUpdate": "עדכן משימה",
+      "submitAdding": "מוסיף...",
+      "submitUpdating": "מעדכן..."
+    },
+    "priority": {
+      "LOW": "נמוכה",
+      "MEDIUM": "בינונית",
+      "HIGH": "גבוהה"
+    },
+    "status": {
+      "completed": "✓ הושלם",
+      "pending": "⏳ ממתין"
+    },
+    "buttons": {
+      "addTask": "➕ הוסף משימה"
+    }
+  },
+  "english": {
+    "app": {
+      "title": "TaskFlow"
+    },
+    "tasksList": {
+      "title": "📋 Tasks List",
+      "total": "Total",
+      "completed": "Completed",
+      "pending": "Pending",
+      "overdue": "Overdue",
+      "searchPlaceholder": "🔍 Search tasks...",
+      "filterAll": "All",
+      "filterPending": "Pending",
+      "filterCompleted": "Completed",
+      "filterOverdue": "Overdue",
+      "noTasks": "No tasks available.",
+      "noResults": "No tasks match your search or filter.",
+      "clearFilters": "Clear Filters",
+      "loading": "Loading tasks...",
+      "error": "Error",
+      "tryAgain": "Try Again",
+      "deleteConfirm": "Are you sure you want to delete this task?"
+    },
+    "taskTable": {
+      "task": "Task",
+      "description": "Description",
+      "priority": "Priority",
+      "category": "Category",
+      "dueDate": "Due Date",
+      "status": "Status",
+      "actions": "Actions",
+      "editTooltip": "Edit task",
+      "deleteTooltip": "Delete task",
+      "toggleTooltip": "Mark as complete/incomplete"
+    },
+    "taskForm": {
+      "addTitle": "➕ Add New Task",
+      "editTitle": "✏️ Edit Task",
+      "taskAdded": "✓ Task added successfully!",
+      "taskUpdated": "✓ Task updated successfully!",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Enter task title",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Enter task description",
+      "priorityLabel": "Priority",
+      "categoryLabel": "Category",
+      "categoryPlaceholder": "e.g., work, personal",
+      "dueDateLabel": "Due Date",
+      "completedLabel": "Mark as completed",
+      "required": "*",
+      "submitAdd": "Add Task",
+      "submitUpdate": "Update Task",
+      "submitAdding": "Adding...",
+      "submitUpdating": "Updating..."
+    },
+    "priority": {
+      "LOW": "Low",
+      "MEDIUM": "Medium",
+      "HIGH": "High"
+    },
+    "status": {
+      "completed": "✓ Completed",
+      "pending": "⏳ Pending"
+    },
+    "buttons": {
+      "addTask": "➕ Add Task"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+
+/* Root CSS Variables for Light Theme (Default) */
+:root {
+  --background-color: #f0f4f8;
+  --surface-color: #ffffff;
+  --card-background: #ffffff;
+  --text-primary: #2d3748;
+  --text-secondary: #4a5568;
+  --text-muted: #718096;
+  --border-color: #e2e8f0;
+  --primary-color: #4299e1;
+  --primary-hover: #3182ce;
+  --primary-gradient-start: #4299e1;
+  --primary-gradient-end: #3182ce;
+  --success-color: #48bb78;
+  --success-hover: #38a169;
+  --warning-color: #ed8936;
+  --danger-color: #f56565;
+  --danger-hover: #e53e3e;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --shadow-hover: rgba(0, 0, 0, 0.15);
+  --overlay-bg: rgba(0, 0, 0, 0.5);
+  --button-bg: #ffffff;
+  --button-text: #4299e1;
+  
+  /* Priority Colors */
+  --priority-low: #bee3f8;
+  --priority-medium: #fbd38d;
+  --priority-high: #fc8181;
+  
+  /* Status Colors */
+  --completed-bg: #c6f6d5;
+  --completed-text: #22543d;
+  --pending-bg: #feebc8;
+  --pending-text: #7c2d12;
+  --overdue-bg: #fff5f5;
+  --overdue-text: #742a2a;
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  --background-color: #1a202c;
+  --surface-color: #2d3748;
+  --card-background: #2d3748;
+  --text-primary: #f7fafc;
+  --text-secondary: #e2e8f0;
+  --text-muted: #cbd5e0;
+  --border-color: #4a5568;
+  --primary-color: #63b3ed;
+  --primary-hover: #4299e1;
+  --primary-gradient-start: #63b3ed;
+  --primary-gradient-end: #4299e1;
+  --success-color: #68d391;
+  --success-hover: #48bb78;
+  --warning-color: #f6ad55;
+  --danger-color: #fc8181;
+  --danger-hover: #f56565;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --shadow-hover: rgba(0, 0, 0, 0.5);
+  --overlay-bg: rgba(0, 0, 0, 0.7);
+  --button-bg: #2d3748;
+  --button-text: #63b3ed;
+  
+  /* Priority Colors - Dark Theme */
+  --priority-low: #2c5282;
+  --priority-medium: #975a16;
+  --priority-high: #9b2c2c;
+  
+  /* Status Colors - Dark Theme */
+  --completed-bg: #22543d;
+  --completed-text: #9ae6b4;
+  --pending-bg: #7c2d12;
+  --pending-text: #fbd38d;
+  --overdue-bg: #742a2a;
+  --overdue-text: #feb2b2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,28 @@
+{
+  "short_name": "TaskFlow",
+  "name": "TaskFlow - Task Management App",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4299e1",
+  "background_color": "#f0f4f8"
+}
